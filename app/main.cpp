@@ -35,15 +35,11 @@ float func(float x)
 }
 float radian(float teta)
 {
-  float rad = teta * M_PI / 180;
-  return rad;
+    float rad = teta * M_PI / 180;
+    return rad;
 }
 int main()
 {
-  Foo d = Foo();
-  std::cout<< d.doSomething()<<std::endl;
-
-  return 0;
     system("clear");
     std::cout << std::flush;
     float teta{0};
